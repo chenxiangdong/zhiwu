@@ -1,0 +1,306 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.zanting{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	position: relative;
+	z-index: 1000;
+}
+.beij{
+	width: 1400px;
+	height:651px;
+	position: absolute;
+	margin: auto;
+	right:0;
+	top:0;
+	left:0;
+	bottom:0;
+	background: url(beijing.jpg);
+	background-repeat: no-repeat;
+	border:1px solid transparent;
+}
+/*菜单*/
+.jieshu{
+	width: 600px;
+	height: 300px;
+	background: url(jieshu.png);
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10000;
+}
+.tingzhi{
+	width: 600px;
+	height: 300px;
+	background: url(zanting.png);
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.chongxin{
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	top: 40px;
+	z-index: 10000;
+	left: 200px;
+}
+.jixu{
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	top: 40px;
+	z-index: 10000;
+	left: 200px;
+}
+.caidan{
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	left: 200px;
+	z-index: 100000000000000000;
+	top: 160px;
+}
+.stop{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 0;
+	left: 1200px;
+	background: url(stop.png);
+}
+/*铲子*/
+.chanzi{
+	position: fixed;
+	top: 0;
+	left: 850px;
+	background: url(chanzi.png);
+	width: 100px;
+	height: 100px;
+	border-radius: 20%;
+}
+/*阳光*/
+.yangguangshu{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	left: 160px;
+	background: url(yangguangshu.png);
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 160px;
+	text-align: center;
+}
+.yangguang{
+	width: 50px;
+	height: 50px;
+	background: url(yangguang.png);
+	position: absolute;
+	left: 25px;
+	top:20px;
+	z-index: 500;
+}
+.buzu{
+	width: 200px;
+	height: 50px;
+	position: fixed;
+	top: 200px;
+	left: 500px;
+	background: url(buzu.png);
+	text-align: center;
+	font-size: 20px;
+	line-height: 100px;	
+}
+/*植物框*/
+.zhiwu{
+	width: 455px;
+	height: 108px;
+	border:1px solid #000;
+	padding: 20px;
+	position:absolute;
+	background: #fff;
+	top: -80px;
+	left: 300px;
+	z-index: 10;
+	opacity: 0.5;
+}
+.zhiwu:hover{
+	position: absolute;
+	top: 0;
+	left: 300px;
+	opacity: 0.8;
+}
+.zhiwu ul{
+	width: 455px;
+	height: 108px;
+}
+/*植物*/
+.zhiwu li{
+	width: 87px;
+	height: 106px;
+	float: left;
+	border:1px solid #000;
+	text-align: left;
+	font-weight: bold;
+	line-height: 170px;
+	color: #0d0d0d;
+	position: relative;
+	margin: 1px;
+}
+.lengque{
+	width: 89px;
+	height: 108px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,0.6);
+}
+.cd{
+	width: 200px;
+	height: 50px;
+	position: fixed;
+	top: 200px;
+	left: 500px;
+	background: url(cd.png);
+	text-align: center;
+	font-size: 20px;
+	line-height: 100px;
+}
+/*每种植物*/
+.wandou{
+	background: url(wandou.png);
+}
+.xiangrikui{
+	background: url(xiangrikui.png);
+}
+.tudou{
+	background: url(tudao.png);
+}
+.lajiao{
+	background: url(lajiao.png);
+}
+.huopen{
+	background: url(huopen.png);
+}
+.huo{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	left:0;
+	top: 17px;
+	z-index: 100;
+}
+/*土地*/
+.tudi{
+	width: 830px;
+	height: 560px;
+	position: absolute;
+	top: 80px;
+	left: 150px;
+	/*background: red;*/
+}
+.tudi ul{
+	width: 830px;
+	height: 560px;
+}
+/*每块土地*/
+.tudi ul li{
+	width: 89px;
+	height: 108px;
+	float: left;
+	/*border:1px solid #000;*/
+	position: relative;
+}
+.tudi ul .wandou .zidan{
+	position: absolute;
+	left: 100px;
+	top: 0;
+	z-index: 100;
+} 
+/*雾霾*/
+.wumai{
+	width: 100px;
+	height: 560px;
+	position: absolute;
+	right: 30px;
+	top: 80px;
+	z-index: 10;
+	/*background: blue;*/
+}
+.wumai li{
+	width: 100px;
+	height: 108px;
+	position: relative;
+}
+.wumaitu{
+	width: 100px;
+	height:108px;
+	position: absolute;
+	top:0;
+	left:0;
+	background: url(wumai.png);
+}
+.wumaikuang{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	left:0;
+	top: 17px;
+	z-index: 100;
+	
+}
+/*消毒*/
+.xiaodu{
+	width: 100px;
+	height: 450px;
+	position: absolute;
+	left: 40px;
+	top: 95px;
+}
+.xiaodu li{
+	margin-top: 10px;
+	width: 100px;
+	height: 90px;
+	position: relative;
+}
+.xiaodu li div{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100px;
+	height: 90px;
+	background: url(xiaodu.png);
+}
+/*子弹*/
+.zidan{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #000;
+	float: right;
+	margin-top: 17px;
+}
+.hongzidan{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: red;
+	float: right;
+	margin-top: 17px;
+}
